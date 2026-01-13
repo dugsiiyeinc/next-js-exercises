@@ -1,0 +1,1 @@
+In this repository i have stored all next js exercises

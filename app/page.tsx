@@ -4,6 +4,7 @@ import Counter from "./exer-2/components/counter";
 import EmailForm from "./exer-3/components/EmailForm";
 import PasswordForm from "./exer-3/components/PasswordForm";
 import FullNameForm from "./exer-3/components/FullNameForm";
+import TodoHomePage from "./exer-4/home/page";
 
 const Home = async () => {
 
@@ -19,11 +20,14 @@ const Home = async () => {
       </Suspense> */}
 
       {/* exercise 3 */}
-      <div className="flex flex-col gap-10">
+      {/* <div className="flex flex-col gap-10">
         <EmailForm/>
         <PasswordForm/>
         <FullNameForm/>
-      </div>
+      </div> */}
+
+      {/* exercise 4 */}
+      <TodoHomePage/>
 
     </div>
   )
